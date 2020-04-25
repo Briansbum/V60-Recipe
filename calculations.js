@@ -1,10 +1,10 @@
-let el_total_volume = document.getElementById("total_volume");
-let el_coffee_weight = document.getElementById("coffee_weight");
-let el_bloom_ammount = document.getElementById("bloom_ammount");
-let el_main_pour = document.getElementById("main_pour");
-let el_final_pour = document.getElementById("final_pour");
-
 window.onload = function(){
+  let el_total_volume = document.getElementById("total_volume");
+  let el_coffee_weight = document.getElementById("coffee_weight");
+  let el_bloom_ammount = document.getElementById("bloom_ammount");
+  let el_main_pour = document.getElementById("main_pour");
+  let el_final_pour = document.getElementById("final_pour");
+  
   el_total_volume.addEventListener("change", function (){
     let vol = el_total_volume.value;
 
