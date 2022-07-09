@@ -5,9 +5,9 @@ window.onload = function(){
   let el_main_pour = document.getElementById("main_pour");
   let el_final_pour = document.getElementById("final_pour");
   
-  el_total_volume.addEventListener("change", function (){
+  el_total_volume.addEventListener("input", function (){
     let vol = el_total_volume.value;
-
+    
     // uses the 60g/L coffee/water ratio recommended by JH
     let coffee_weight = ((6/100)*vol).toFixed(1);
     el_coffee_weight.innerHTML = coffee_weight;
